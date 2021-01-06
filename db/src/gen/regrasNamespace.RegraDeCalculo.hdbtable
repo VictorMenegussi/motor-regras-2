@@ -1,0 +1,5 @@
+COLUMN TABLE regrasNamespace_RegraDeCalculo (
+  momento INTEGER,
+  tipoDeErro INTEGER,
+  Mensagem NVARCHAR(5000)
+)

@@ -1,0 +1,8 @@
+COLUMN TABLE regrasNamespace_BOM (
+  tipoInstalacao NVARCHAR(5000),
+  idTipoOS NVARCHAR(5000),
+  codMaterialSAP NVARCHAR(5000),
+  qtdMin DECIMAL,
+  qtdMax DECIMAL,
+  unidadeConsumo NVARCHAR(5000)
+)

@@ -1,0 +1,8 @@
+VIEW MotorDeRegras_BOM AS SELECT
+  BOM_0.tipoInstalacao,
+  BOM_0.idTipoOS,
+  BOM_0.codMaterialSAP,
+  BOM_0.qtdMin,
+  BOM_0.qtdMax,
+  BOM_0.unidadeConsumo
+FROM regrasNamespace_BOM AS BOM_0

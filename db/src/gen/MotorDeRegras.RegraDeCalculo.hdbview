@@ -1,0 +1,5 @@
+VIEW MotorDeRegras_RegraDeCalculo AS SELECT
+  RegraDeCalculo_0.momento,
+  RegraDeCalculo_0.tipoDeErro,
+  RegraDeCalculo_0.Mensagem
+FROM regrasNamespace_RegraDeCalculo AS RegraDeCalculo_0

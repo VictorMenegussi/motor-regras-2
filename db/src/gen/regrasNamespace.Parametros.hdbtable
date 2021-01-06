@@ -1,0 +1,5 @@
+COLUMN TABLE regrasNamespace_Parametros (
+  parametros INTEGER,
+  labelParametro NVARCHAR(5000),
+  valor NVARCHAR(5000)
+)

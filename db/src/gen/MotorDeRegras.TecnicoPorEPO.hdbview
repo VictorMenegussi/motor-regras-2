@@ -1,0 +1,4 @@
+VIEW MotorDeRegras_TecnicoPorEPO AS SELECT
+  TecnicoPorEPO_0.loginTecnico,
+  TecnicoPorEPO_0.CodFornecedorSAP
+FROM regrasNamespace_TecnicoPorEPO AS TecnicoPorEPO_0

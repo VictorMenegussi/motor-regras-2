@@ -1,0 +1,5 @@
+VIEW MotorDeRegras_Parametros AS SELECT
+  Parametros_0.parametros,
+  Parametros_0.labelParametro,
+  Parametros_0.valor
+FROM regrasNamespace_Parametros AS Parametros_0

@@ -1,0 +1,4 @@
+COLUMN TABLE regrasNamespace_TecnicoPorEPO (
+  loginTecnico NVARCHAR(5000),
+  CodFornecedorSAP NVARCHAR(5000)
+)
